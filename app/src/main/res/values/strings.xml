@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BirthdayCake</string>
+    <string name="welcome_to_cs371">Welcome to CS371</string>
 </resources>
