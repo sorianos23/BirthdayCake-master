@@ -15,7 +15,7 @@
 
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/titleTextV"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Happy Birthday"
@@ -53,13 +53,13 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/cQuestion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="How many candles?" />
 
             <SeekBar
-                android:id="@+id/seekBar2"
+                android:id="@+id/cseekBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:max="5"
@@ -73,7 +73,7 @@
             android:orientation="vertical">
 
             <Switch
-                android:id="@+id/switch2"
+                android:id="@+id/fswitch"
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:checked="true"
@@ -81,7 +81,7 @@
                 tools:checked="true" />
 
             <Switch
-                android:id="@+id/switch3"
+                android:id="@+id/cswitch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
@@ -100,13 +100,13 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/bobutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Blow out" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/gbbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="goodbye"
