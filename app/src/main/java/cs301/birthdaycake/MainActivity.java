@@ -4,6 +4,9 @@ import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import android.view.View;
+import android.util.Log;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,4 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_main);
     }
+
+    public void goodbye(View button) {
+        Log.i("button", "Goodbye");
+        finishAffinity();
+    }
+
 }
